@@ -125,6 +125,43 @@ After changing directories (we will learn how to do this in the next section), t
 
 <img width="295" alt="image" src="https://user-images.githubusercontent.com/85710889/212566845-62620f6e-0d62-4e6f-b007-ab3515a81e95.png">
 
+# Changing Directories
+Files are used to store data such as text, graphics and programs. 
+Directories are a type of file used to store other files–they provide a hierarchical organizational structure. 
+
+The image below shows an abbreviated version of the filesystem structure on the virtual machines.
+![image](https://user-images.githubusercontent.com/85710889/212612165-55c55db6-3f58-4445-aefa-7d71849fd369.png)
+
+When you start a fresh virtual machine, you are logged in as the sysadmin user in your home directory, highlighted below:
+![image](https://user-images.githubusercontent.com/85710889/212612284-f8b5f8af-2faa-4a6d-b39b-ccf58fd95c56.png)
+
+ 
+To navigate the filesystem structure, use the cd (change directory) command to change directories.
+Command sysntax: cd [options] [path]
+
+If you look back at the graphic above, you will see the Documents directory is located within the home directory, where you are currently located. 
+To move to the Documents directory, use it as argument to the cd command:
+
+<img width="428" alt="image" src="https://user-images.githubusercontent.com/85710889/212612459-e47f16f4-3dfa-4931-8bee-3885435b17ce.png">
+
+Directories are equivalent to folders on Windows and Mac OS. 
+Like these more popular operating systems, a Linux directory structure has a top level. It is not called "My Computer", but rather the root directory and it is represented by the / character. 
+To move to the root directory, use the / character as the argument to the cd command.
+<img width="458" alt="image" src="https://user-images.githubusercontent.com/85710889/212612666-6bf083eb-6791-4217-b9db-0619ea858780.png">
+
+![image](https://user-images.githubusercontent.com/85710889/212612740-2a7db44d-a75b-4605-aa58-cd5bee28ac29.png)
+
+The argument to the cd command is more than just the name of a directory, it is actually a path. 
+A path is a list of directories separated by the / character. 
+For example, /home/sysadmin is the path to your home directory:
+
+![image](https://user-images.githubusercontent.com/85710889/212612928-eb28c412-ac5d-4eab-a16a-5d1350e4d10b.png)
+
+If you think of the filesystem as a map, paths are the step-by-step directions; they can be used to indicate the location of any file within the filesystem. 
+There are two types of paths: absolute and relative. Absolute paths start at the root of the filesystem, relative paths start from your current location.
+
+
+
 
 
 
